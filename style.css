@@ -2,14 +2,73 @@
     width: 300px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f2f2f2;
     border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.login-page {
+    background-image: url('loin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav a img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid #333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.homepage {
+    background-image: url('');
+}
+
+a:hover {
+    background-color: #444;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
+    color: #333;
 }
 
 form {
@@ -79,4 +138,119 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.book1 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.heater-bo1 {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page {
+    flex: 1;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+}
+
+.page img {
+    max-width: 100%;
+}
+
+#navigation {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+
+/* Responsive styles */
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.book img {
+    max-width: 100%;
+}
+
+.book h3 {
+    margin: 10px 0 5px 0;
+}
+
+.book p {
+    margin: 0;
+}
+
+.book button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pdf-container {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+#pdf-canvas {
+    display: block;
+    margin: auto;
 }
